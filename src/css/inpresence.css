@@ -1,0 +1,136 @@
+body {
+    background-color: #4C4B4B;
+}
+
+hr {
+    margin: 0;
+    margin-top: 5px;
+}
+
+#header {
+    /*height: 150px;*/
+    /*padding: 0 53px;*/
+
+    background: #642f70; /* Old browsers */
+    background: -moz-linear-gradient(left,  #642f70 0%, #887bd3 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#642f70), color-stop(100%,#887bd3)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #642f70 0%,#887bd3 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #642f70 0%,#887bd3 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #642f70 0%,#887bd3 100%); /* IE10+ */
+    background: linear-gradient(to right,  #642f70 0%,#887bd3 100%); /* W3C */
+
+}
+ #header-row,
+ #main, #footer {
+    width: 960px;
+    margin: 0 auto;
+ }
+
+ #img-section {
+    position: relative;
+ }
+
+     #img-section img {
+        position: absolute;
+        margin-top: 20px;
+     }
+
+ #login label {
+    display: block;
+    text-align: center;
+ }
+
+ #header-nav {
+    display: -webkit-inline-box;
+    padding: 0;
+    margin: 0;
+ }
+
+  #header-nav li {
+    list-style-type: none;
+    padding: 9px;
+  }
+
+  #header-nav li a {
+    color: white;
+  }
+
+#main {
+    background-color: white;
+    height: 600px;
+    padding-top: 50px;
+}
+
+ #main-nav {
+    width: 800px;
+    margin: 0 auto;
+ }
+
+ #carousel-row {
+    margin-bottom: 70px;
+ }
+
+ .carousel {
+    height: 245px;
+    width: 800px;
+    margin: 0 auto;
+ }
+
+  .carousel .item img {
+    height: 245px;
+  }
+
+ #info-row {
+    width: 800px;
+    margin: 0 auto;
+ }
+
+  #info-row .col-lg-6 {
+    padding: 0;
+  }
+
+ .apr-tab {
+    width: 90px;
+    display: inline-block;
+    margin-right: 40px;
+ }
+
+     .apr-title {
+        /*height: 100px;*/
+        text-align: center;
+
+        padding: 15px;
+
+        background: #887bd3;
+
+        color: white;
+     }
+
+     .apr-text {
+        height: 100px;
+        background-color: #E6E6E6;
+        border-radius: 0 0 10px 10px;
+     }
+
+        .apr-text p {
+            padding: 25px;
+        }
+
+#partners-title {
+    background: #887bd3;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+#footer {
+    background-color: #212020;
+    height: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+    #img-section img {
+        position: initial;
+    }
+}
