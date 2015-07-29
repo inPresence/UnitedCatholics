@@ -57,14 +57,24 @@ hr {
 
 #main {
     background-color: white;
-    height: 600px;
     padding-top: 50px;
+    padding-bottom: 20px;
 }
 
  #main-nav {
     width: 800px;
     margin: 0 auto;
  }
+
+.nav-tabs a {
+    color: white;
+    background-color: #887bd3;
+}
+
+.nav-tabs a:hover {
+    color: #887bd3;
+    background-color: lightgrey;
+}
 
  #carousel-row {
     margin-bottom: 70px;
@@ -116,6 +126,14 @@ hr {
             padding: 25px;
         }
 
+#image-row, #money-icons {
+    margin-top: 20px;
+}
+
+.img-float {
+    float: left;
+}
+
 #partners-title {
     background: #887bd3;
     color: white;
@@ -124,9 +142,29 @@ hr {
     margin-bottom: 2px;
 }
 
+#money-icons img {
+    float: right;
+}
+
+.panel-heading {
+    background-color: #887bd3;
+    color: white;
+}
+
 #footer {
     background-color: #212020;
     height: 100px;
+    padding: 15px;
+}
+
+#info-block {
+    /*padding-top: 20px;*/
+}
+
+#info-block p {
+    margin: 0;
+    color: white;
+    font-size: 9pt;
 }
 
 @media only screen and (max-width: 768px) {
