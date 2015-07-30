@@ -22,8 +22,8 @@ hr {
 }
  #header-row,
  #main, #footer {
-    width: 960px;
-    margin: 0 auto;
+    /*width: 960px;*/
+    margin: 0 9%;
  }
 
  #img-section {
@@ -59,10 +59,12 @@ hr {
     background-color: white;
     padding-top: 50px;
     padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
  #main-nav {
-    width: 800px;
+    /*width: 800px;*/
     margin: 0 auto;
  }
 
@@ -82,7 +84,7 @@ hr {
 
  .carousel {
     height: 245px;
-    width: 800px;
+    /*width: 800px;*/
     margin: 0 auto;
  }
 
@@ -91,7 +93,7 @@ hr {
   }
 
  #info-row {
-    width: 800px;
+    /*width: 800px;*/
     margin: 0 auto;
  }
 
