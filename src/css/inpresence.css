@@ -9,7 +9,8 @@ hr {
 
 #header {
     /*height: 150px;*/
-    /*padding: 0 53px;*/
+    padding: 0 10%;
+
 
     background: #642f70; /* Old browsers */
     background: -moz-linear-gradient(left,  #642f70 0%, #887bd3 100%); /* FF3.6+ */
@@ -23,7 +24,7 @@ hr {
  #header-row,
  #main, #footer {
     /*width: 960px;*/
-    margin: 0 9%;
+    /*margin: 0 9%;*/
  }
 
  #img-section {
@@ -57,15 +58,22 @@ hr {
 
 #main {
     background-color: white;
-    padding-top: 50px;
+    /*padding-top: 50px;*/
     padding-bottom: 20px;
     padding-left: 10%;
     padding-right: 10%;
 }
 
  #main-nav {
-    /*width: 800px;*/
     margin: 0 auto;
+ }
+
+ #desk-nav {
+    padding-top: 50px;
+ }
+
+ #mobile-nav {
+    padding: 20px;
  }
 
 .nav-tabs a {
@@ -98,13 +106,11 @@ hr {
  }
 
   #info-row .col-lg-6 {
-    padding: 0;
+    /*padding: 0;*/
   }
 
  .apr-tab {
-    width: 90px;
-    display: inline-block;
-    margin-right: 40px;
+    padding: 0 20px;
  }
 
      .apr-title {
@@ -136,6 +142,8 @@ hr {
     float: left;
 }
 
+#partners-blck { padding: 0 20px;}
+
 #partners-title {
     background: #887bd3;
     color: white;
@@ -155,8 +163,7 @@ hr {
 
 #footer {
     background-color: #212020;
-    height: 100px;
-    padding: 15px;
+    padding: 20px;
 }
 
 #info-block {
@@ -172,5 +179,38 @@ hr {
 @media only screen and (max-width: 768px) {
     #img-section img {
         position: initial;
+    }
+
+    #footer .col-lg-4 {
+        text-align: center;
+    }
+
+    #header, #main {
+        padding: 0 10px;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    form {
+        text-align: center;
+    }
+
+    form input {
+        width: 75%;
+    }
+
+    #header-nav { text-align: center; }
+
+    #header-nav li { display: -webkit-inline-box; }
+
+    #image-row, #money-icons {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .img-float, #money-icons img {
+        float: none;
     }
 }
