@@ -7,9 +7,15 @@ hr {
     margin-top: 5px;
 }
 
+input {
+    height: 35px;
+    padding: 5px;
+    color: black;
+}
+
 #header {
     /*height: 150px;*/
-    padding: 0 10%;
+    padding: 0 4% 0 10%;
 
 
     background: #642f70; /* Old browsers */
@@ -20,12 +26,9 @@ hr {
     background: -ms-linear-gradient(left,  #642f70 0%,#887bd3 100%); /* IE10+ */
     background: linear-gradient(to right,  #642f70 0%,#887bd3 100%); /* W3C */
 
+    color: white;
+
 }
- #header-row,
- #main, #footer {
-    /*width: 960px;*/
-    /*margin: 0 9%;*/
- }
 
  #img-section {
     position: relative;
@@ -39,6 +42,21 @@ hr {
  #login label {
     display: block;
     text-align: center;
+ }
+
+ #login input {
+    margin-right: 10px;
+    background-color: #E6E6E6;
+ }
+
+ #login button {
+    width: 100px;
+    border-radius: 25px;
+ }
+
+ #forgot {
+    text-decoration: none;
+    color: white;
  }
 
  #header-nav {
@@ -58,32 +76,50 @@ hr {
 
 #main {
     background-color: white;
-    /*padding-top: 50px;*/
+
     padding-bottom: 20px;
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
- #main-nav {
+ #info-row {
+    padding: 0 10%;
+ }
+
+ #nav-row {
     margin: 0 auto;
+    max-width: 950px;
  }
 
  #desk-nav {
     padding-top: 50px;
+    border-bottom: none;
  }
 
  #mobile-nav {
     padding: 20px;
  }
 
-.nav-tabs a {
+.nav a {
     color: white;
-    background-color: #887bd3;
+    background-color: #642f70;
 }
 
-.nav-tabs a:hover {
+.nav-tabs>li>a {
+    border-radius: 10px 10px 0 0;
+}
+
+.nav a:hover, .nav a:focus, .nav>.open>a .dropdown-menu>li>a:hover{
     color: #887bd3;
     background-color: lightgrey;
+}
+
+.dropdown-menu {
+    background-color: #642f70;
+    color: white;
+}
+
+.dropdown-menu>li>a {
+    border-radius: 0;
+    color: white;
 }
 
  #carousel-row {
@@ -92,7 +128,7 @@ hr {
 
  .carousel {
     height: 245px;
-    /*width: 800px;*/
+    max-width: 950px;
     margin: 0 auto;
  }
 
@@ -128,6 +164,8 @@ hr {
         height: 100px;
         background-color: #E6E6E6;
         border-radius: 0 0 10px 10px;
+
+        text-align: center;
      }
 
         .apr-text p {
@@ -164,6 +202,14 @@ hr {
 #footer {
     background-color: #212020;
     padding: 20px;
+    color: white;
+}
+
+#footer input {
+    margin-top: 2%;
+}
+#footer .col-xs-12 {
+    text-align: center;
 }
 
 #info-block {
@@ -177,14 +223,6 @@ hr {
 }
 
 @media only screen and (max-width: 768px) {
-    #img-section img {
-        position: initial;
-    }
-
-    #footer .col-lg-4 {
-        text-align: center;
-    }
-
     #header, #main {
         padding: 0 10px;
     }
@@ -210,6 +248,10 @@ hr {
         text-align: center;
     }
 
+    #info-row {
+        padding: 0;
+    }
+
     .img-float, #money-icons img {
         float: none;
     }
@@ -221,4 +263,19 @@ hr {
     .partners .col-xs-4 img {
         padding: 7%;
     }
+}
+
+@media only screen and (max-width: 991px) {
+    #img-section img {
+        position: initial;
+        height: 150px;
+        width: 375px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .nav-tabs>li>a {
+        font-size: 8pt;
+    }
+
 }
