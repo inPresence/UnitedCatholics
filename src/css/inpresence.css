@@ -213,4 +213,12 @@ hr {
     .img-float, #money-icons img {
         float: none;
     }
+
+    .partners .col-xs-4 {
+        padding: 0;
+    }
+
+    .partners .col-xs-4 img {
+        padding: 7%;
+    }
 }
