@@ -248,6 +248,10 @@ input {
         text-align: center;
     }
 
+    #info-row {
+        padding: 0;
+    }
+
     .img-float, #money-icons img {
         float: none;
     }
