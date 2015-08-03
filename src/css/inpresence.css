@@ -62,7 +62,7 @@ input {
  #header-nav {
     display: -webkit-inline-box;
     display: -moz-inline-box;
-    *display: inline;
+    display: -ms-inline-flexbox;
     zoom: 1;
     padding: 0;
     margin: 0;
@@ -270,7 +270,7 @@ input {
 
 @media only screen and (max-width: 991px) {
     #img-section img {
-        position: initial;
+        position: relative;
         height: 150px;
         width: 375px;
         display: block;
