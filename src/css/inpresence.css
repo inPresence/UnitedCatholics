@@ -37,6 +37,7 @@ input {
      #img-section img {
         position: absolute;
         margin-top: 20px;
+        right: 15%;
      }
 
  #login label {
@@ -110,6 +111,10 @@ input {
     border-radius: 10px 10px 0 0;
 }
 
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    color: #887bd3;
+}
+
 .nav a:hover, .nav a:focus, .nav>.open>a .dropdown-menu>li>a:hover{
     color: #887bd3;
     background-color: lightgrey;
@@ -124,6 +129,8 @@ input {
     border-radius: 0;
     color: white;
 }
+
+#nav-content { padding-right: 9%;}
 
  #carousel-row {
     margin-bottom: 70px;
@@ -230,7 +237,7 @@ input {
         padding: 0 10px;
     }
 
-    h3 {
+    h1, h3 {
         text-align: center;
     }
 
@@ -281,4 +288,8 @@ input {
         font-size: 8pt;
     }
 
+}
+
+@media only screen and (max-width: 785px) {
+    #nav-content { padding: 20px; }
 }
